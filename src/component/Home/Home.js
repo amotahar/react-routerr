@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
-            
-            <>This is ok</>   
-            <Link>Thi is ok</Link> 
+        <div>   
+                
+              
+            <h2>This is Home page </h2>   
+         
         </div>
     );
 };
