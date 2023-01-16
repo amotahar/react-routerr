@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../Header/Header';
 
-const About = () => {
+const Products = () => {
     return (
         <div>
             <Header></Header>
-            <h2>This is about information me</h2>
-            
+            <h1>This is Products</h1>
+       
         </div>
     );
 };
 
-export default About;
+export default Products;

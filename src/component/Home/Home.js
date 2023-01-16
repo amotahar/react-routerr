@@ -1,17 +1,10 @@
 import React from 'react';
+import Header from '../Header/Header';
 const Home = () => {
     return (
         <div>   
-                
-              
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
-            <h2>This is Home page </h2>   
+              <Header></Header> 
+              <h1>This is real home page</h1>
          
         </div>
     );
