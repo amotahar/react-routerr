@@ -6,12 +6,18 @@ import Home from './component/Home/Home';
 import Contact from './component/Contact/Contact';
 import Products from './component/Products/Products';
 import Main from './component/Layout/Main';
+import Friends from './component/About/Friends/Friends';
 
 function App() {
   const router = createBrowserRouter([
-    { path:'/', element: <Main></Main>, children: [
-      { path:'home', element: <Home></Home>},
-      { path: 'products', element: <Products></Products>},
+    { 
+      path:'/', 
+      element: <Main></Main>, 
+      children: [
+         { path:'/', element: <Home></Home>},
+         { path:'home', element: <Home></Home>},
+         { path: 'products', element: <Products></Products>},
+         { path: 'friends', element: <Friends></Friends>},
     ]},
     
     { path:'about', element: <About></About>},
