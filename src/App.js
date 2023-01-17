@@ -1,6 +1,5 @@
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Header from './component/Header/Header';
 import About from './component/About/About';
 import Home from './component/Home/Home';
 import Contact from './component/Contact/Contact';
@@ -22,6 +21,7 @@ function App() {
     
     { path:'about', element: <About></About>},
     { path:'contact', element: <Contact></Contact>}, 
+    { path: '*', element: <div>This route not found 404</div>}, 
   ])
   return (
     <div className="App">
